@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "public",
+
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"],
+
+    "cleanUrls": true,
+
+    "rewrites": [ {
+        "source": "**",
+        "destination": "https://schoolstrike4climate.com/",
+        "type": 302
+      } ]
+
+  }
+}

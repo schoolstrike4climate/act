@@ -1,0 +1,88 @@
+:root {
+  --padding-side: 2rem;
+  --colour-ss4c-yellow-light: #fff266;
+  --colour-ss4c-red: #b92600;
+  --colour-ss4c-yellow: #ffdf4f;
+  --colour-ss4c-orange: #f28241;
+  --colour-ss4c-yellow-light: #fff266;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --font-size-default: 1.5rem;
+}
+body {
+  background: var(--colour-ss4c-orange);
+
+}
+
+h2 {
+  font-family: rift, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.line {
+  color: black;
+  padding-top: 50px;
+
+}
+
+.js-donate_amount_wrap donate_amount_wrap donate_options5 clearfix check_radio_field {
+  font-weight: bold;
+  margin: auto;
+}
+
+input {
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 5px;
+  font-family: rift, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+
+}
+
+label {
+  font-family: rift, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.left {
+
+}
+
+
+#donation_welcome {
+
+}
+
+/* #can_embed_form #donation_welcome {
+    margin-bottom: 40px;
+    background-color: #f5f5f5;
+    padding: 19px;
+    border-left: 3px solid #d6d6d6;
+    border-right: 3px solid #d6d6d6;
+    border-bottom: 3px solid #d6d6d6;
+    margin: -40px 0 40px;
+    font-family: rift, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+ a {
+  color: black;
+  text-decoration: none;
+}
+
+/* donate_amount_wrap donate_options5 clearfix check_radio_field */
+
+donate_recurring js-donate_recurring mb40 clearfix{
+
+  background-color: #f5f5f5;
+
+ }
